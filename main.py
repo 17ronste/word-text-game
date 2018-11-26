@@ -1,2 +1,5 @@
 import random as r
-print ("hello world")
+
+def monsters(name,use):
+    use = r.randchoice(name)
+    
